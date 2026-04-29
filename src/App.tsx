@@ -220,7 +220,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– für wen ist das relevant –</div>
-            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15 }}>
+            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15, color: "#0a0a0a" }}>
               Bist du betroffen?
             </h2>
           </Fade>
@@ -233,7 +233,7 @@ export default function JetztPKV() {
               <Fade key={i} delay={i * 0.1}>
                 <div style={{ background: "#fff", borderRadius: "12px", padding: "2rem", border: "1.5px solid rgba(24,95,165,.12)", textAlign: "left" }}>
                   <div style={{ fontFamily: "'Sora', sans-serif", fontSize: ".72rem", fontWeight: 700, color: "#185FA5", letterSpacing: ".1em", background: "#EFF6FF", display: "inline-flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "8px", marginBottom: "1rem" }}>{c.emoji}</div>
-                  <h3 style={{ fontFamily: "'Sora',sans-serif", fontSize: "1rem", fontWeight: 700, marginBottom: ".5rem" }}>{c.title}</h3>
+                  <h3 style={{ fontFamily: "'Sora',sans-serif", fontSize: "1rem", fontWeight: 700, marginBottom: ".5rem", color: "#0a0a0a" }}>{c.title}</h3>
                   <p style={{ fontSize: ".87rem", color: "#5F5E5A", lineHeight: 1.7 }}>{c.text}</p>
                 </div>
               </Fade>
@@ -247,7 +247,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– stimmen aus der community –</div>
-            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15 }}>
+            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15, color: "#0a0a0a" }}>
               Was andere sagen.
             </h2>
           </Fade>
@@ -284,7 +284,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– so begleiten wir dich –</div>
-            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15 }}>
+            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15, color: "#0a0a0a" }}>
               Vom ersten Interesse bis zum Abschluss.
             </h2>
             <p style={{ fontSize: ".95rem", color: "#5F5E5A", lineHeight: 1.75, marginBottom: "3rem", maxWidth: "540px", fontWeight: 300 }}>
@@ -333,7 +333,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "560px", margin: "0 auto" }}>
           <Fade>
             <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-              <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.4rem", fontWeight: 700, lineHeight: 1.15, marginBottom: ".8rem" }}>
+              <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.4rem", fontWeight: 700, lineHeight: 1.15, marginBottom: ".8rem", color: "#0a0a0a" }}>
                 Kostenloser PKV-Check.<br />
                 <span style={{ color: "#185FA5" }}>Jetzt anfragen.</span>
               </h2>
@@ -347,7 +347,7 @@ export default function JetztPKV() {
             {submitted ? (
               <div style={{ textAlign: "center", padding: "1rem 0" }}>
                 <div style={{ width: "60px", height: "60px", borderRadius: "50%", background: "linear-gradient(135deg,#1a6fc4,#185FA5)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 1.2rem", fontSize: "1.6rem", color: "#fff" }}>✓</div>
-                <h3 style={{ fontFamily: "'Sora',sans-serif", fontSize: "1.2rem", fontWeight: 700, marginBottom: ".5rem" }}>Anfrage eingegangen!</h3>
+                <h3 style={{ fontFamily: "'Sora',sans-serif", fontSize: "1.2rem", fontWeight: 700, marginBottom: ".5rem", color: "#0a0a0a" }}>Anfrage eingegangen!</h3>
                 <p style={{ fontSize: ".9rem", color: "#5F5E5A", lineHeight: 1.7 }}>Wir melden uns innerhalb von 24 Stunden. Kein Druck, kein Spam.</p>
               </div>
             ) : (
@@ -373,7 +373,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– faq –</div>
-            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.7rem" : "2.2rem", fontWeight: 700, marginBottom: "2rem" }}>Häufige Fragen.</h2>
+            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.7rem" : "2.2rem", fontWeight: 700, marginBottom: "2rem", color: "#0a0a0a" }}>Häufige Fragen.</h2>
           </Fade>
           <div style={{ background: "#fff", borderRadius: "12px", padding: isMobile ? "1rem 1.2rem" : "1rem 2rem" }}>
             {[

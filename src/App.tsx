@@ -105,8 +105,9 @@ export default function JetztPKV() {
       <nav style={{ position: "sticky", top: 0, zIndex: 100, background: "rgba(255,255,255,.95)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(0,0,0,.07)", padding: isMobile ? ".9rem 1.2rem" : "1rem 5rem" }}>
         <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: ".6rem" }}>
-            <div style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", borderRadius: "8px", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <span style={{ color: "#fff", fontFamily: "'Sora',sans-serif", fontWeight: 800, fontSize: "1rem" }}>J</span>
+            <div style={{ display: "flex", flexDirection: "column", gap: "5px", width: "36px", justifyContent: "center" }}>
+              <div style={{ height: "5px", borderRadius: "3px", background: "linear-gradient(90deg,#1a6fc4,#185FA5)", width: "100%" }}></div>
+              <div style={{ height: "5px", borderRadius: "3px", background: "linear-gradient(90deg,#1a6fc4,#185FA5)", width: "70%" }}></div>
             </div>
             <span style={{ fontFamily: "'Sora',sans-serif", fontWeight: 800, fontSize: "1.1rem", color: "#0a0a0a" }}>
               Jetzt<span style={{ color: "#185FA5" }}>PKV</span>

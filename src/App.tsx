@@ -109,7 +109,7 @@ export default function JetztPKV() {
               <span style={{ color: "#fff", fontFamily: "'Sora',sans-serif", fontWeight: 800, fontSize: "1rem" }}>J</span>
             </div>
             <span style={{ fontFamily: "'Sora',sans-serif", fontWeight: 800, fontSize: "1.1rem", color: "#0a0a0a" }}>
-              Jetzt<span style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>PKV</span>
+              Jetzt<span style={{ color: "#185FA5" }}>PKV</span>
             </span>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: isMobile ? ".8rem" : "1.5rem" }}>
@@ -132,7 +132,7 @@ export default function JetztPKV() {
 
             <h1 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "2.2rem" : "3.8rem", fontWeight: 800, lineHeight: 1.07, color: "#0a0a0a", marginBottom: "1.2rem" }}>
               Die GKV wird teurer.<br />
-              <span style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Wer kann, wechselt jetzt.</span>
+              <span style={{ color: "#185FA5" }}>Wer kann, wechselt jetzt.</span>
             </h1>
 
             <p style={{ fontSize: isMobile ? ".95rem" : "1.1rem", color: "#5F5E5A", lineHeight: 1.85, marginBottom: "2.2rem", maxWidth: "540px", fontWeight: 300, textAlign: "center", margin: "0 auto 2.2rem" }}>
@@ -156,7 +156,7 @@ export default function JetztPKV() {
         <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– der kabinettsbeschluss –</div>
-            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.8rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15 }}>Was sich konkret ändert.</h2>
+            <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.8rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15, color: "#0a0a0a" }}>Was sich konkret ändert.</h2>
             <p style={{ color: "#5F5E5A", fontSize: ".95rem", lineHeight: 1.75, marginBottom: "1.5rem", maxWidth: "540px", fontWeight: 300 }}>
               Die beschlossene GKV-Reform trifft Gutverdiener an mehreren Stellen. Das sind die relevanten Punkte für deine Entscheidung.
             </p>
@@ -335,7 +335,7 @@ export default function JetztPKV() {
             <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
               <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.4rem", fontWeight: 700, lineHeight: 1.15, marginBottom: ".8rem" }}>
                 Kostenloser PKV-Check.<br />
-                <span style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Jetzt anfragen.</span>
+                <span style={{ color: "#185FA5" }}>Jetzt anfragen.</span>
               </h2>
               <p style={{ fontSize: ".95rem", color: "#5F5E5A", lineHeight: 1.75, fontWeight: 300 }}>
                 30 Minuten. Kein Verkaufsdruck. Wir prüfen ob sich der Wechsel für dich lohnt, und wenn nicht, sagen wir das auch.

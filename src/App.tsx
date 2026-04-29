@@ -80,6 +80,7 @@ export default function JetztPKV() {
     @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+    html, body, #root { width: 100%; margin: 0; padding: 0; }
     body { background: #fff; color: #0a0a0a; font-family: 'DM Sans', system-ui, sans-serif; }
     ::selection { background: #185FA5; color: #fff; }
     button { cursor: pointer; border: none; background: none; font-family: inherit; }
@@ -101,8 +102,8 @@ export default function JetztPKV() {
       <style>{css}</style>
 
       {/* NAV */}
-      <nav style={{ position: "sticky", top: 0, zIndex: 100, background: "rgba(255,255,255,.95)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(0,0,0,.07)", padding: isMobile ? ".9rem 1.2rem" : "1rem 2rem" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <nav style={{ position: "sticky", top: 0, zIndex: 100, background: "rgba(255,255,255,.95)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(0,0,0,.07)", padding: isMobile ? ".9rem 1.2rem" : "1rem 5rem" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: ".6rem" }}>
             <div style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", borderRadius: "8px", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <span style={{ color: "#fff", fontFamily: "'Sora',sans-serif", fontWeight: 800, fontSize: "1rem" }}>J</span>
@@ -120,9 +121,9 @@ export default function JetztPKV() {
       </nav>
 
       {/* HERO */}
-      <section style={{ background: "linear-gradient(160deg, #EFF6FF 0%, #fff 60%)", padding: isMobile ? "3.5rem 1.2rem 3rem" : "6rem 2rem 5rem", position: "relative", overflow: "hidden" }}>
+      <section style={{ background: "linear-gradient(160deg, #EFF6FF 0%, #fff 60%)", padding: isMobile ? "5rem 1.2rem 3rem" : "6rem 5rem 5rem", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", top: 0, right: 0, width: "500px", height: "500px", background: "radial-gradient(circle at top right, rgba(24,95,165,.08), transparent 65%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "780px", margin: "0 auto", position: "relative" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto", position: "relative" }}>
           <Fade>
             <div style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", border: "1px solid rgba(24,95,165,.2)", borderRadius: "6px", padding: ".35rem .9rem", marginBottom: "1.8rem", background: "rgba(255,255,255,.8)" }}>
               <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#185FA5" }}></div>
@@ -151,8 +152,8 @@ export default function JetztPKV() {
       </section>
 
       {/* REFORM FACTS */}
-      <section id="reform" style={{ background: "#fff", padding: isMobile ? "2.5rem 1.2rem" : "4rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+      <section id="reform" style={{ background: "#fff", padding: isMobile ? "2.5rem 1.2rem" : "4rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– der kabinettsbeschluss –</div>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.8rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15 }}>Was sich konkret ändert.</h2>
@@ -184,9 +185,9 @@ export default function JetztPKV() {
       </section>
 
       {/* WARUM JETZT */}
-      <section id="warum-jetzt" style={{ background: "linear-gradient(135deg,#042C53,#0C447C,#185FA5)", padding: isMobile ? "3rem 1.2rem" : "6rem 2rem", position: "relative", overflow: "hidden" }}>
+      <section id="warum-jetzt" style={{ background: "linear-gradient(135deg,#042C53,#0C447C,#185FA5)", padding: isMobile ? "3rem 1.2rem" : "6rem 5rem", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", top: "-100px", right: "-100px", width: "400px", height: "400px", background: "radial-gradient(circle, rgba(55,138,221,.15), transparent 65%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "1100px", margin: "0 auto", position: "relative" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto", position: "relative" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "rgba(255,255,255,.5)", marginBottom: ".6rem" }}>– warum jetzt und nicht später –</div>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.8rem", fontWeight: 700, color: "#fff", marginBottom: "3rem", lineHeight: 1.15 }}>
@@ -215,8 +216,8 @@ export default function JetztPKV() {
       </section>
 
       {/* WHO IS THIS FOR */}
-      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "6rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "6rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– für wen ist das relevant –</div>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15 }}>
@@ -242,8 +243,8 @@ export default function JetztPKV() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section style={{ background: "#fff", padding: isMobile ? "3rem 1.2rem" : "6rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+      <section style={{ background: "#fff", padding: isMobile ? "3rem 1.2rem" : "6rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– stimmen aus der community –</div>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: "3rem", lineHeight: 1.15 }}>
@@ -279,8 +280,8 @@ export default function JetztPKV() {
       </section>
 
       {/* PROZESS */}
-      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "6rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "6rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– so begleiten wir dich –</div>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "1.9rem" : "2.6rem", fontWeight: 700, marginBottom: ".8rem", lineHeight: 1.15 }}>
@@ -328,7 +329,7 @@ export default function JetztPKV() {
       </section>
 
       {/* LEAD CAPTURE */}
-      <section id="kontakt" ref={ctaRef} style={{ background: "#fff", padding: isMobile ? "3rem 1.2rem" : "6rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+      <section id="kontakt" ref={ctaRef} style={{ background: "#fff", padding: isMobile ? "3rem 1.2rem" : "6rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
         <div style={{ maxWidth: "560px", margin: "0 auto" }}>
           <Fade>
             <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
@@ -368,7 +369,7 @@ export default function JetztPKV() {
       </section>
 
       {/* FAQ */}
-      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "5rem 2rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
+      <section style={{ background: "#F8FAFF", padding: isMobile ? "3rem 1.2rem" : "5rem 5rem", borderTop: "1px solid rgba(0,0,0,.06)" }}>
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
           <Fade>
             <div style={{ fontSize: ".72rem", letterSpacing: ".15em", textTransform: "uppercase", color: "#888780", marginBottom: ".6rem" }}>– faq –</div>
@@ -387,7 +388,7 @@ export default function JetztPKV() {
       </section>
 
       {/* FINAL CTA */}
-      <section style={{ background: "linear-gradient(135deg,#042C53,#185FA5)", padding: isMobile ? "4rem 1.2rem" : "6rem 2rem", textAlign: "center" }}>
+      <section style={{ background: "linear-gradient(135deg,#042C53,#185FA5)", padding: isMobile ? "4rem 1.2rem" : "6rem 5rem", textAlign: "center" }}>
         <Fade>
           <div style={{ maxWidth: "560px", margin: "0 auto" }}>
             <h2 style={{ fontFamily: "'Sora',sans-serif", fontSize: isMobile ? "2rem" : "3rem", fontWeight: 800, color: "#fff", marginBottom: ".8rem", lineHeight: 1.1 }}>
@@ -405,7 +406,7 @@ export default function JetztPKV() {
 
       {/* FOOTER */}
       <footer style={{ background: "#fff", borderTop: "1px solid rgba(0,0,0,.06)", padding: isMobile ? "1.5rem 1.2rem" : "2rem 2rem" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "flex", flexDirection: isMobile ? "column" : "row", justifyContent: "space-between", alignItems: "center", gap: "1rem", textAlign: isMobile ? "center" : "left" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", flexDirection: isMobile ? "column" : "row", justifyContent: "space-between", alignItems: "center", gap: "1rem", textAlign: isMobile ? "center" : "left" }}>
           <div style={{ fontSize: ".82rem", color: "#888780" }}>© 2026 SalesHub Financial Commerce GmbH · JetztPKV ist eine Marke der SalesHub Financial Commerce GmbH</div>
           <div style={{ display: "flex", gap: "1.5rem" }}>
             <button onClick={() => setShowImpressum(true)} style={{ fontSize: ".82rem", color: "#888780", background: "none", border: "none", cursor: "pointer" }}>Impressum</button>

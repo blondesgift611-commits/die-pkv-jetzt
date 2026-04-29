@@ -123,7 +123,7 @@ export default function JetztPKV() {
       {/* HERO */}
       <section style={{ background: "linear-gradient(160deg, #EFF6FF 0%, #fff 60%)", padding: isMobile ? "5rem 1.2rem 3rem" : "6rem 5rem 5rem", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", top: 0, right: 0, width: "500px", height: "500px", background: "radial-gradient(circle at top right, rgba(24,95,165,.08), transparent 65%)", pointerEvents: "none" }} />
-        <div style={{ maxWidth: "1400px", margin: "0 auto", position: "relative" }}>
+        <div style={{ maxWidth: "1400px", margin: "0 auto", position: "relative", textAlign: "center" }}>
           <Fade>
             <div style={{ display: "inline-flex", alignItems: "center", gap: ".5rem", border: "1px solid rgba(24,95,165,.2)", borderRadius: "6px", padding: ".35rem .9rem", marginBottom: "1.8rem", background: "rgba(255,255,255,.8)" }}>
               <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#185FA5" }}></div>
@@ -135,11 +135,11 @@ export default function JetztPKV() {
               <span style={{ background: "linear-gradient(135deg,#1a6fc4,#185FA5)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Wer kann, wechselt jetzt.</span>
             </h1>
 
-            <p style={{ fontSize: isMobile ? ".95rem" : "1.1rem", color: "#5F5E5A", lineHeight: 1.85, marginBottom: "2.2rem", maxWidth: "540px", fontWeight: 300 }}>
+            <p style={{ fontSize: isMobile ? ".95rem" : "1.1rem", color: "#5F5E5A", lineHeight: 1.85, marginBottom: "2.2rem", maxWidth: "540px", fontWeight: 300, textAlign: "center", margin: "0 auto 2.2rem" }}>
               Die GKV-Reform ist beschlossen. Wer über der Einkommensgrenze liegt, sollte den Wechsel in die PKV jetzt ernsthaft prüfen.
             </p>
 
-            <div style={{ display: "flex", gap: ".9rem", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", gap: ".9rem", flexWrap: "wrap", justifyContent: "center" }}>
               <button className="btn-primary" onClick={scrollToCTA} style={{ fontSize: ".95rem", padding: ".9rem 2.2rem" }}>
                 Jetzt kostenlos prüfen →
               </button>
